@@ -1,0 +1,24 @@
+# CrashVision M1 — Re-entrenamiento YOLOv8
+# Generado desde retrain_yolov8_m1.ipynb
+
+# Deep learning — YOLOv8
+ultralytics>=8.0.0
+
+# Dataset
+roboflow>=1.1.0
+
+# PyTorch con CUDA 12.8 (RTX 4060 — driver 610.47 / CUDA 13.3)
+# Instalar con: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.11.0
+torchvision>=0.26.0
+
+# Sistema / monitoreo
+psutil>=5.9.0
+
+# Datos y visualización
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# YAML (para leer data.yaml de Roboflow)
+pyyaml>=6.0

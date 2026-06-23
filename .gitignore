@@ -1,0 +1,38 @@
+# Entorno virtual
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# YOLOv8 — outputs de entrenamiento (pesos y logs, son pesados)
+runs/
+
+# Modelos entrenados
+*.pt
+*.onnx
+*.engine
+
+# Logs y temporales
+*.log
+*.tmp
