@@ -28,13 +28,13 @@ ehthumbs.db
 # YOLOv8 — outputs de entrenamiento (pesos y logs, son pesados)
 runs/
 
-# Modelos entrenados (ignorar en general)
-*.pt
-*.onnx
-*.engine
+# # Modelos entrenados (ignorar en general)
+# *.pt
+# *.onnx
+# *.engine
 
-# Excepción: modelos M1 finales sí se suben
-!CrashVision/models/m1/*.pt
+# # Excepción: modelos M1 finales sí se suben
+# !CrashVision/models/m1/*.pt
 
 # Logs y temporales
 *.log
