@@ -1,0 +1,2 @@
+Modelo,Precision,Recall,F1-score,mAP@50,mAP@50:95,Tamaño(MB)
+YOLOv8s M2,0.7967,0.7108,0.7513,0.675,0.2983,22.5
